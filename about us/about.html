@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist\css\bootstrap.min.css">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+
+    
+
+   
+
+    .yac {
+      font-size: 500%;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center;
+      color: transparent;
+      -webkit-text-stroke: 1px black;
+      background: url(load.jpeg);
+      -webkit-background-clip: text;
+      background-position: 0 0;
+      animation: back 20s linear infinite;
+    }
+
+    @keyframes back {
+      100% {
+        background-position: 2000px 0;
+      }
+    }
+
+    
+
+    @media screen and (max-width:600px) {
+      .font_sizing {
+        font-size: 8px;
+      }
+
+      .yac {
+        font-size: 200%;
+      }
+    }
+
+    
+
+   
+
+   
+
+    .yac {
+      font-size: 50px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center;
+      color: transparent;
+      -webkit-text-stroke: 1px black;
+      background: url(load.jpeg);
+      -webkit-background-clip: text;
+      background-position: 0 0;
+      animation: back 20s linear infinite;
+    }
+
+    @keyframes back {
+      100% {
+        background-position: 2000px 0;
+      }
+    }
+
+   
+
+    
+    .container1:hover .image {
+      opacity: 0.3;
+    }
+
+    .container1:hover .middle {
+      opacity: 1;
+    }
+
+   
+
+    #pag {
+      background-color: black;
+      margin-left: 5%;
+      margin-right: 5%;
+      border-radius: 30px;
+    }
+
+    .btn:hover {
+      background-color: none;
+      color: antiquewhite;
+      text-align: center;
+      box-shadow: 0 0 10px #f7ebeb, 0 0 20px #f7ebeb, 0 0 40px #f7ebeb, 0 0 80px #f7ebeb;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    
+
+  
+
+   
+
+    #def {
+      background-color: black;
+      border: none;
+      margin-right: 7%;
+    }
+    /* Card Styling start  */
+    .flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  margin: 10px 0;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #000000;
+  color: white;
+  transform: rotateY(180deg);
+}
+    /* Card Styling End  */
+@media screen and (max-width : 600px) {
+  #foot{
+    width: 100%;
+  }
+}
+ #yac{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+   background: url(load.jpeg);
+   -webkit-background-clip:  text;
+   background-position: 0 0;
+   animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+  </style>
+</head>
+
+<body>
+ 
+
+
+
+ 
+
+  <!--Start of team-->
+  <h3><strong><i>
+        <p class="yac" style="margin: 647px 0 0 0; color: #000000;">OUR TEAM</p>
+      </i></strong></h3><br><br>
+  <div class="row" style="width: 100%; margin:20px 0 ;">
+    <div class="col-lg-3 colg-md-6 col-sm-12"  style="display: flex; align-items: center; justify-content: center;">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="image\pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg" alt="Avatar" style="width:200px;height:200px;"">
+          </div>
+          <div class="flip-card-back">
+            <h1 style="margin-top: 15%;">M.Amin Bulaqi</h1>
+            <p>Web Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 colg-md-6 col-sm-12" style="display: flex; align-items: center; justify-content: center;">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="image\pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg" alt="Avatar" style="width:200px;height:200px;">
+          </div>
+          <div class="flip-card-back">
+            <h1 style="margin-top: 15%;">M.Fahad Sheikh</h1>
+            <p>Web Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 colg-md-6 col-sm-12" style="display: flex; align-items: center; justify-content: center;">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="image\pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg" alt="Avatar" style="width:200px;height:200px;">
+          </div>
+          <div class="flip-card-back">
+            <h1 style="margin-top: 15%;">M.Nehaal Aleem</h1>
+            <p>Web Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 colg-md-6 col-sm-12" style="display: flex; align-items: center; justify-content: center;">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="image\pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg" alt="Avatar" style="width:200px;height:200px;">
+          </div>
+          <div class="flip-card-back">
+            <h1 style="margin-top: 15%;">Sameer Malik</h1>
+            <p>Web Developer</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--Start of team-->
+
+  <!--start of author-->
+  <div class="row" id="pag">
+    <div class="col-lg-6"
+      style="display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 5%;">
+      <h3 style=" font-size: 200%; color: White; font-weight: bold;">Be the best athlete </h3>
+      <h3 style=" font-size: 200%; color: White; font-weight: bold;">that you can be</h3>
+      <h3 style=" font-size: 200%; color: White; font-weight: bold;">Your #1 sports buddy.</h3>
+
+    </div>
+
+    <div class="col-lg-6"
+      style="display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 5%;">
+      <img src="image\Sport-PNG-Image.png" alt="" style="width:50%; border-radius: 150px;" class="btn">
+    </div>
+  </div>
+  <br><br>
+  <!--end of author-->
+
+  
+
+
+
+
+      <script src="bootstrap-5.0.2-dist\js\bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=IBM+Plex+Sans:wght@300&family=Spline+Sans+Mono:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.txtHeader {
+    display: flex;
+    height: 2em;
+    background-color: black;
+}
+
+.header1Left {
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+}
+
+.header1Left li {
+    color: white;
+    list-style: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-left: 10px;
+}
+
+.header1Left li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: white;
+    /* Change the color */
+    font-weight: bolder;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: 0em;
+    /* Also needed for space (tweak if needed) */
+}
+
+.header1Left a {
+    text-decoration: underline;
+    color: white;
+}
+
+.header1Right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header1Right li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+.header1Right li a {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.logoHeader {
+    height: 6.5em;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+}
+
+.logoHeader img {
+    height: 6em;
+    width: 9em;
+}
+
+.bg-white {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-bar {
+    background-color: rgb(233, 233, 233);
+    height: 4em;
+    border-bottom: 2px solid grey;
+    margin-bottom: 30px;
+}
+
+.nav-list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list-items {
+    list-style: none;
+}
+
+.list-items a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 1em;
+}
+
+.list-items a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+@media (max-width: 745px) {
+    .txtHeader {
+        height: 3em;
+    }
+}
+
+@media (max-width: 510px) {
+    .txtHeader {
+        height: 3em;
+    }
+
+    .header1Left {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header1Right {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 445px) {
+    .txtHeader {
+        display: none;
+    }
+    .dropbtn{
+        font-size: 10px;
+    }
+    .list-items a{
+        font-size: 15px;
+    }
+}
+@media(max-width: 334px){
+    .list-items a{
+        font-size: 13px;
+    }
+}
+@media(max-width: 294px){
+    .list-items a{
+        font-size: 11px;
+    }
+}
+
+.dropbtn {
+    background-color: rgb(233, 233, 233);
+    color: white;
+    padding: 16px 1em;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(233, 233, 233);
+    min-width: 200px;
+    z-index: 2;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: rgb(190, 192, 190);
+}

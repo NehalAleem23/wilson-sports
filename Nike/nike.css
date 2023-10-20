@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Istok+Web&family=Passion+One&family=Yantramanav:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.row h1{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.about h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 45px;
+}
+.about i{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+}
+
+.row{
+    --bs-gutter-x: 0 !important;
+}
+
+.r1c1 img:hover{
+    content: url(img/men1hover.jpg);
+}
+
+.r1c2 img:hover{
+    content: url(img/men2hover.jpg);
+}
+.r1c3 img:hover{
+    content: url(img/men3hover.jpg);
+}
+
+.r2c1 img:hover{
+    content: url(img/shoes1hover.jpg);
+}
+.r2c2 img:hover{
+    content: url(img/shoes2hover.jpg);
+}
+.r2c3 img:hover{
+    content: url(img/shoes3hover.jpg);
+}
+
+.r3c1 img:hover{
+    content: url(img/girl1hover.jpg);
+}
+.r3c2 img:hover{
+    content: url(img/girl2hover.jpg);
+}
+.r3c3 img:hover{
+    content: url(img/girl3hover.jpg);
+}
